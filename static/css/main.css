@@ -3,7 +3,8 @@ body {
   font-weight: 400;
   color: #333;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 18px;
+  /* font-size: 1.5rem; */
 }
 
 a, a:hover {
@@ -62,7 +63,7 @@ textarea {
 blockquote {
   margin-left: 1rem;
   font-style: italic;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: Georgia,bitstream charter,serif;
   border-left: 3px solid;
   border-color: #a00;
@@ -274,7 +275,7 @@ text-decoration: none !important;
 .recent-posts .posts .post .meta,
 .post .post-header .meta,
 .list .posts .post .meta {
-  font-size: 0.725rem;
+  font-size: 1rem;
   color: #999;
   margin-bottom: 4px;
 }
@@ -409,4 +410,10 @@ table th, table td {
   .container {
       margin-top: 10px;
   }
+}
+
+img[src$='#responsive']
+{
+  width: 50%;
+  height: auto;
 }
